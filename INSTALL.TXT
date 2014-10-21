@@ -1,0 +1,29 @@
+
+Setup a web site to run this and its one php 
+    Modify
+        main.js - city:
+                  lat:
+                  lng:
+                  state:
+
+
+Create a Google Fiustion table based off of your city and 
+
+    Modify
+        main.js     - eventquery:
+
+You will need to get a API key for google maps https://developers.google.com/maps/documentation/javascript/tutorial#api_key
+
+    Modify 
+        index.html  - src="//maps.googl.....
+        main.js     - googlemapsapikey
+
+
+
+Turn on Contacts API and Google+ API"  per http://stackoverflow.com/questions/22870082/getting-error-403-access-not-configured-please-use-google-developers-console-t
+
+
+
+
+See https://developers.google.com/fusiontables/docs/v1/getting_started 
+

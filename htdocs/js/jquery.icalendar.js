@@ -49,7 +49,7 @@ function iCalendar() {
 		copyUnavailable: 'The clipboard is unavailable, please copy the event details from below:\n'
 	};
 	this._sites = {  // The definitions of the available iCalendar sites
-		'google': {display: 'Google', icon: 0, override: null,
+		'google': {display: 'Add to Google Calendar', icon: 0, override: null,
 			url: 'http://www.google.com/calendar/event?action=TEMPLATE' +
 			'&amp;text={t}&amp;dates={s}/{e}&amp;details={d}&amp;location={l}&amp;sprop=website:{u}'},
 		'icalendar': {display: 'Add To Calendar', icon: 1, override: null, url: 'echo'},

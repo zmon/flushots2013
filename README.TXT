@@ -1,17 +1,34 @@
-I have again partnered with the Chicago Department of Public Health (CDPH) to create an updated flu shot finder web application. Currently it has all the CDPH free locations and events. It also includes Walgreens, Dominick's, Jewel/Osco, and CVS locations that offer flu shots.
 
-I created this as a volunteer effort. The code that runs it is open, completely free, and reusable by anyone.
+This code is based of of Tom Kompare's https://github.com/tkompare/flushots2013.  
 
-Special thanks to Smart Chicago Collaborative for hosting this thing. Also thanks to Raed Mansour, Dr. Julie Morita, and Commissioner Dr. Bechara Choucair (all with CDPH) for being great to work with.
+The data behind this site is a Google Fusion Table https://www.google.com/fusiontables/DataSource?docid=1JL0TihFJT5MTJiVK1t54e6hE836Fw-UHwdB_8YOA.
 
-NOTES:
+If you have locations you would like to add, please fork this project, create a file based off of data/flueshot.csv called data/yourname.csv, add location, commit, and do a pull request.  The spread sheet needs to be in the following format.
 
--- This a HTML/CSS/JavaScript web application. It does have one small PHP file to construct an iCal file for users who want a calendar reminder of one-off events. This PHP file should be simple enough to rewrite in whatever server-side language is available in your environment.
 
--- I used the generic Bootstrap 3 download, except it has one modified LESS variable: '@screen-sm' was set to '860px'.
+* latitude - a value in the format of 39.102609
+* longitude - a value in the format of -94.582728
+* street1 - required
+* street2
+* city - required
+* state - required
+* postal_code - required
+* facility_name - required
+* url - prefered
+* phone - requred
+* contact - prefered
+* begin_date - required mm/dd/yyyy
+* end_date - required mm/dd/yyyy
+* begin_time - can be blank
+* end_time - can be blank
+* hours - can be blank
+* recurrence_days - Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+* cost - free, call, or dollar amount
+* notes - any notes that would be usefull in researching this
 
--- If you want to reuse this code for your city/county/province/state, a good place to start is in main.js and altering the properties of the "Default" object at the top of the file.
+This is a volunteer effort of the Kansas City Brigade of Code for America. http://codeforkc.org
 
--- I try to use meaningful variable names, so hopefully the code won't be too hard to follow.
+The live site is at http://kcflushots.com/
 
--- The data behind this site is a Google Fusion Table and is found here: https://www.google.com/fusiontables/DataSource?docid=1leqPq9hrsGhnE8NoT00YZn1ITTzhK6BhrF8LNL4
+Special thanks to Ashly Hand of KCMO for suggesting that we do this project.
+

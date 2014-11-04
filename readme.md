@@ -63,7 +63,7 @@ bug.
 ## Adding Locations
 If you have locations you would like to add, please fork this project, create a file based off of data/flueshot.csv called data/yourname.csv, add location, commit, and do a pull request.  The spread sheet needs to be in the following format.
 
-* latitude - a value in the format of 39.102609
+* latitude - a value in the format of 39.102609 - not required but will save us time see [website to fine latitude and logitude][longlat]
 * longitude - a value in the format of -94.582728
 * street1 - required
 * street2
@@ -83,6 +83,7 @@ If you have locations you would like to add, please fork this project, create a 
 * cost - free, call, or dollar amount
 * notes - any notes that would be usefull in researching this
 
+[longlat]: http://www.findlatitudeandlongitude.com/?loc=4990+NORTH+EAST+VIVION+RD%2C+KANSAS+CITY%2C+MO+64119&id=1625383
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2014 Code for America Kansas City Brigade. See [LICENSE][] for details.
